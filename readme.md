@@ -5,9 +5,9 @@
 * [Production Deployment](https://p2production.herokuapp.com/)
 
 
-[![Development Workflow](https://github.com/MaxLozada/poject1/actions/workflows/dev.yml/badge.svg)](https://github.com/MaxLozada/poject1/actions/workflows/dev.yml)
+[![Development Workflow](https://github.com/MaxLozada/Project-2/actions/workflows/dev.yml/badge.svg)](https://github.com/MaxLozada/Project-2/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://mrldev.herokuapp.com/)
+* [Developmental Deployment](https://p2dev.herokuapp.com/)
 
 Finalizing functions.
 
