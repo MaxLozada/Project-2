@@ -1,5 +1,8 @@
+"""context process test"""
 import datetime
 from os import getenv
+
+# pylint: f-string-without-interpolation
 
 def test_context_variables_environment(client):
     """This test checks if the environment is printed"""
@@ -28,3 +31,4 @@ def test_context_currency_format(client):
     content = bytes(test_string, 'utf-8')
     assert response.status_code == 200
     assert content in response.data
+    
