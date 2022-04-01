@@ -2,8 +2,8 @@ name: Development Workflow
 
 on:
   pull_request:
-    branches:
-      - 'master'
+    branches-ignore:
+      - master
 
 jobs:
   run_pytest:
