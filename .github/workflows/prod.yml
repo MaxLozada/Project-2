@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ml644/docker_repo_master
+          images: ml644/docker-project-2
 
       - name: Build and push
         uses: docker/build-push-action@v2
