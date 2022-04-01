@@ -2,8 +2,6 @@
 import datetime
 from os import getenv
 
-# pylint: disable=f-string-without-interpolation
-
 def test_context_variables_environment(client):
     """This test checks if the environment is printed"""
     response = client.get("/")
